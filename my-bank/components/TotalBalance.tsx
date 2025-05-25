@@ -1,4 +1,3 @@
-import { TotalBalanceBoxProps } from '@/types'
 import React from 'react'
 
 const TotalBalance = ({ totalBanks,totalCurrentBalance}:TotalBalanceBoxProps ) => {

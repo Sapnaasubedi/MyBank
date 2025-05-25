@@ -12,11 +12,13 @@ const Home = () => {
             type="greeting"
             title="Welcome"
             user={loggedIn?.firstName}
-            subText="Access and Manage your account and transactions efficiently"
+            subtext="Access and Manage your account and transactions efficiently"
           />
-          <TotalBalance  accounts={[]}
-          totalBanks={1}
-          totalCurrentBalance={1200.35}/>
+          <TotalBalance
+            accounts={[]}
+            totalBanks={1}
+            totalCurrentBalance={1200.35}
+          />
         </header>
       </div>
     </section>
