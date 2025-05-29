@@ -4,7 +4,7 @@ import TotalBalance from "@/components/TotalBalance";
 import React from "react";
 
 const Home = () => {
-  const loggedIn = { firstName: "Sapana" };
+  const loggedIn = { firstName: "Sapana" , lastName: "Subedi" , email:"sapanasubedi18@gmail.com"};
   return (
     <section className="home">
       <div className="home-content">
@@ -23,7 +23,7 @@ const Home = () => {
         </header>
         RECENT transactions
       </div>
-      <RightSidebar user={loggedIn} transactions={[]} banks={[]}/>
+      <RightSidebar user={loggedIn as User} transactions={[]} banks={[]}/>
     </section>
   );
 };
